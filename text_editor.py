@@ -9,8 +9,7 @@ else:
 	print("Если вы не читали помощь, пожалуйста прочтите")
 path=input("Введите название: ")
 f = open(path, 'w' )
-x=1
-while x==1:
+while True:
 	s=input()
 	s= s+"\n"
 	f.write(s)
